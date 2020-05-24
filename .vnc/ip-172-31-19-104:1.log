@@ -1,0 +1,98 @@
+
+Xvnc TigerVNC 1.10.0 - built Apr  9 2020 06:49:31
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12008000, The X.Org Foundation
+
+
+Sun May 24 18:50:49 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+xrdb: No such file or directory
+xrdb: can't open file '/home/cloud_user/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[1271]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[1272]: gpg-agent (GnuPG) 2.2.19 started
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:02.231: gpg-agent returned no PID in the variables
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:02.233: xfsm_manager_load_session: Something wrong with /home/cloud_user/.cache/sessions/xfce4-session-ip-172-31-19-104:1, Does it exist? Permissions issue?
+
+(xfwm4:1273): xfwm4-WARNING **: 18:51:05.738: Unsupported GL renderer (llvmpipe (LLVM 9.0.1, 128 bits)).
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:08.267: Unable to launch "/usr/bin/ubuntu-report send upgrade" (specified by autostart/ubuntu-report-on-upgrade.desktop): Failed to execute child process “/usr/bin/ubuntu-report” (No such file or directory)
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:08.436: Unable to launch "/usr/libexec/deja-dup/deja-dup-monitor" (specified by autostart/org.gnome.DejaDup.Monitor.desktop): Failed to execute child process “/usr/libexec/deja-dup/deja-dup-monitor” (No such file or directory)
+
+** (wrapper-2.0:1445): WARNING **: 18:51:08.492: No outputs have backlight property
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:08.576: Unable to launch "/usr/libexec/tracker-extract" (specified by autostart/tracker-extract.desktop): Failed to execute child process “/usr/libexec/tracker-extract” (No such file or directory)
+Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Tracker1 was not provided by any .service files
+
+(wrapper-2.0:1446): GLib-GIO-CRITICAL **: 18:51:08.646: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1446): GLib-GIO-CRITICAL **: 18:51:08.646: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1446): GLib-GObject-WARNING **: 18:51:08.646: invalid (NULL) pointer instance
+
+(wrapper-2.0:1446): GLib-GObject-CRITICAL **: 18:51:08.646: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1446): Gtk-WARNING **: 18:51:08.646: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:08.656: Unable to launch "xdg-user-dirs-gtk-update" (specified by autostart/user-dirs-update-gtk.desktop): Failed to execute child process “xdg-user-dirs-gtk-update” (No such file or directory)
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:08.682: Unable to launch "/usr/libexec/tracker-miner-fs" (specified by autostart/tracker-miner-fs.desktop): Failed to execute child process “/usr/libexec/tracker-miner-fs” (No such file or directory)
+
+(wrapper-2.0:1446): Gtk-WARNING **: 18:51:09.034: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfce4-session:1172): xfce4-session-WARNING **: 18:51:09.098: Unable to launch "/usr/bin/spice-vdagent" (specified by autostart/spice-vdagent.desktop): Failed to execute child process “/usr/bin/spice-vdagent” (No such file or directory)
+
+(wrapper-2.0:1444): Gtk-WARNING **: 18:51:09.293: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1445): Gtk-WARNING **: 18:51:09.356: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1505): Gtk-WARNING **: 18:51:09.378: Can't set a parent on widget which has a parent
+
+** (light-locker:1578): ERROR **: 18:51:09.410: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(wrapper-2.0:1465): Gtk-WARNING **: 18:51:09.412: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(nm-applet:1505): Gdk-CRITICAL **: 18:51:09.670: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (xiccd:1531): WARNING **: 18:51:10.194: EDID is empty
+
+** (xiccd:1531): CRITICAL **: 18:51:10.237: failed to create colord device: failed to obtain org.freedesktop.color-manager.create-device auth
+Geolocation service not in use
+
+** (xiccd:1531): CRITICAL **: 18:51:15.667: device 'xrandr-default' does not exist
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+
+(apport-gtk:1926): Gtk-CRITICAL **: 18:51:20.979: _gtk_style_provider_private_get_settings: assertion 'GTK_IS_STYLE_PROVIDER_PRIVATE (provider)' failed
+
+(apport-gtk:1926): Gtk-CRITICAL **: 18:51:20.979: _gtk_style_provider_private_get_settings: assertion 'GTK_IS_STYLE_PROVIDER_PRIVATE (provider)' failed
+
+(apport-gtk:1926): Gtk-CRITICAL **: 18:51:20.979: _gtk_style_provider_private_get_settings: assertion 'GTK_IS_STYLE_PROVIDER_PRIVATE (provider)' failed
+gpg-agent[1272]: SIGTERM received - shutting down ...
+
+** (xiccd:1531): WARNING **: 18:52:18.468: Exiting
+Gdk-Message: 18:52:18.486: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 18:52:18.488: xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+Gdk-Message: 18:52:18.491: xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :1.
+
+gpg-agent[1272]: gpg-agent (GnuPG) 2.2.19 stopped
+Gdk-Message: 18:52:18.492: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.
+
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":1.0"
+      after 20 requests (20 known processed) with 0 events remaining.
+
+Sun May 24 18:52:18 2020
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
